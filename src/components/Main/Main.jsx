@@ -1,8 +1,8 @@
 import './Main.css'
 
-const Main = () => {
+const Main = ({ children }) => {
   return (
-    <div>Main</div>
+    <main>{children}</main>
   )
 }
 
