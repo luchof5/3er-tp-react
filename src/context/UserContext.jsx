@@ -6,14 +6,14 @@ export const useUser = () => useContext(userContext);
 
 export const UserProvider = ({ children }) => {
 
-    const [name, setName] = useState('')
+    const [user, setUser] = useState('')
 
-    const updateUser = (name) => {
-        setName(name);
+    const updateUser = (user) => {
+        setUser(user);
       };
 
     return (
-        <userContext.Provider value={{ name, updateUser }}>
+        <userContext.Provider value={{ user, updateUser }}>
             {children}
         </userContext.Provider>
     )
