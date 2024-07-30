@@ -1,10 +1,34 @@
-import Layout from '../../components/Layout/Layout'
+import { useState } from 'react'
+import { useUser } from '../../context/UserContext.jsx';
+import Layout from '../../components/Layout/Layout.jsx'
+
 
 const Home = () => {
+
+  const { name, setName } = useUser();
+
+
   return (
-    <Layout>
-      <h1>Home</h1>
-    </Layout>
+    <div>
+      {!name ? (
+        <form >
+          <label htmlFor="name">Ingrese su nombre para poder ingresar</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+        </form>
+     ) : (
+      <Layout>
+        <h1>{name}</h1> 
+      </Layout>
+    )}
+    </div>
   )
 }
 
