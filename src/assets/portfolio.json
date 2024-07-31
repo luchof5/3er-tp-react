@@ -1,0 +1,105 @@
+{
+    "jobs": [
+      {
+        "title": "Desarrollador Front-End",
+        "company": "Tech Solutions",
+        "duration": "Enero 2020 - Presente",
+        "responsibilities": [
+          "Desarrollar y mantener interfaces de usuario usando React.",
+          "Colaborar con diseñadores para crear experiencias de usuario atractivas.",
+          "Optimizar aplicaciones web para máxima velocidad y escalabilidad."
+        ]
+      },
+      {
+        "title": "Ingeniero de Software",
+        "company": "Innovative Systems",
+        "duration": "Marzo 2018 - Diciembre 2019",
+        "responsibilities": [
+          "Desarrollar y mantener aplicaciones de backend usando Node.js.",
+          "Implementar soluciones de bases de datos eficientes.",
+          "Trabajar en estrecha colaboración con equipos multifuncionales para entregar proyectos a tiempo."
+        ]
+      },
+      {
+        "title": "Desarrollador Web Junior",
+        "company": "Web Creatives",
+        "duration": "Junio 2016 - Febrero 2018",
+        "responsibilities": [
+          "Crear y mantener sitios web usando HTML, CSS y JavaScript.",
+          "Asegurar la compatibilidad de los sitios web con múltiples navegadores.",
+          "Proporcionar soporte técnico y resolver problemas de los clientes."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Desarrollé una plataforma de comercio electrónico usando React y Node.js, permitiendo a los usuarios navegar y comprar productos en línea.",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "url": "https://ecommerce.example.com"
+      },
+      {
+        "name": "Portfolio Website",
+        "description": "Creé un sitio web de portafolio personal para mostrar mis proyectos y habilidades.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "url": "https://portfolio.example.com"
+      },
+      {
+        "name": "Blog Platform",
+        "description": "Desarrollé una plataforma de blogs donde los usuarios pueden publicar y comentar artículos.",
+        "technologies": ["Vue.js", "Firebase"],
+        "url": "https://blog.example.com"
+      },
+      {
+        "name": "Task Manager",
+        "description": "Construí una aplicación de gestión de tareas que permite a los usuarios organizar sus actividades diarias.",
+        "technologies": ["Angular", "Express.js", "MySQL"],
+        "url": "https://taskmanager.example.com"
+      },
+      {
+        "name": "Weather App",
+        "description": "Desarrollé una aplicación del tiempo que muestra el clima actual y pronósticos utilizando la API de OpenWeather.",
+        "technologies": ["React Native", "Redux"],
+        "url": "https://weatherapp.example.com"
+      },
+      {
+        "name": "Social Network",
+        "description": "Creé una red social donde los usuarios pueden conectarse, compartir publicaciones y seguir a otros usuarios.",
+        "technologies": ["React", "Node.js", "GraphQL"],
+        "url": "https://socialnetwork.example.com"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Licenciatura en Ciencias de la Computación",
+        "institution": "Universidad Nacional",
+        "duration": "2012 - 2016",
+        "details": [
+          "Especialización en desarrollo de software.",
+          "Participación en proyectos de investigación en inteligencia artificial.",
+          "Graduado con honores."
+        ]
+      },
+      {
+        "degree": "Máster en Ingeniería de Software",
+        "institution": "Instituto Tecnológico",
+        "duration": "2017 - 2019",
+        "details": [
+          "Investigación avanzada en arquitectura de software.",
+          "Desarrollo de proyectos en colaboración con empresas del sector.",
+          "Beca de excelencia académica."
+        ]
+      },
+      {
+        "degree": "Curso de Desarrollo Web Full Stack",
+        "institution": "Academia de Tecnología",
+        "duration": "2020 - 2021",
+        "details": [
+          "Formación intensiva en desarrollo front-end y back-end.",
+          "Creación de proyectos completos desde cero.",
+          "Certificación profesional en desarrollo web."
+        ]
+      }
+    ]
+  }
+  

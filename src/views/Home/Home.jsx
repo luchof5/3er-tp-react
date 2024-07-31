@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useUser } from '../../context/UserContext.jsx';
-import Layout from '../../components/Layout/Layout.jsx'
+import Layout from '../../components/Layout/Layout.jsx';
+import Portfolio from '../../components/Portfolio/Portfolio.jsx';
 
 
 const Home = () => {
@@ -12,6 +13,10 @@ const Home = () => {
   const handleName = (e) => {
     e.preventDefault();
     updateUser(name);
+  }
+  
+  const hadleChange = (e) => {
+    setName(e.target.value);
   }
 
   return (
@@ -25,14 +30,14 @@ const Home = () => {
             id="name"
             placeholder="Nombre"
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={hadleChange}
             required
           />
           <button type="submit">Enviar</button>
         </form>
      ) : (
       <Layout>
-        <h1>{user}</h1> 
+        <Portfolio user={user} />
       </Layout>
     )}
     </div>
